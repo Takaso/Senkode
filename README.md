@@ -6,4 +6,9 @@ Costum encryption by Takaso and Komodo
 * start the script: `python3 main.py`
 
 ## Usage
-while you're editing the code (we made this not 'cause we are lazy, but to avoid skids who can't code), you can set a numeric key, and then use the functions `encrypt` and `decrypt` like in the examples to respectively encrypt, and decrypt words!
+Encrypt a word: `python3 main.py -e oscuro -k 69` _=> `b'6C706076716C'`_
+
+Decrypt a word: `python3 main.py -d 6C706076716C -k 69` _=>`oscuro`_
+
+### To-do list:
+* Implementation of a non-obsolete key LMAO
